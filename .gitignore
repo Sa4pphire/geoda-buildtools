@@ -1,0 +1,30 @@
+# Visual Studio and MSBuild local state
+.vs/
+.vscode/
+**/x64/
+**/Win32/
+**/Debug/
+**/Release/
+
+# Keep the launcher script, but not generated Release artifacts.
+!windows/Release/
+windows/Release/*
+!windows/Release/run_geoda.bat
+
+*.obj
+*.pdb
+*.idb
+*.ilk
+*.tlog
+*.lastbuildstate
+*.recipe
+*.log
+*.cache
+*.user
+*.suo
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*~
